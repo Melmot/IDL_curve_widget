@@ -10,7 +10,7 @@ Hence, any commits are wellcome.
 ## Usage
 
 ```
-spline = draw_curve(img, /x, /y, /full)
+spline = draw_curve(image, /x, /y, /full)
 ```
 
 **Inputs:**
