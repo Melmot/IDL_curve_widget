@@ -14,17 +14,17 @@ spline = draw_curve(img, /x, /y, /full)
 ```
 
 **Inputs:**
-*image* - a byte-scaled 2-D array to be dsplayed in the widget.
+image - a byte-scaled 2-D array to be dsplayed in the widget.
 
 **Keywords:**
-*/x* or */y* - use these keywords specify the primary axis for the spline. */x* is the default.
+/x or /y - use these keywords specify the primary axis for the spline. */x* is the default.
 
-            */full* - set this keyword to continue the spline to the edges of the image.
+            /full - set this keyword to continue the spline to the edges of the image.
 
 **Outputs:**
-*spline = {x, y}* - and IDL structure containing the *x* and *y* pixel coordinates of the spline.
+spline = {x, y} - and IDL structure containing the x and y pixel coordinates of the spline.
 
-- The above command opens a widget displaying the provided *image* in its main window.
+- The above command opens a widget displaying the provided image in its main window.
 Current display options (e.g. the color scheme) will be applied.
 If the image is too large to be displayed on the screen, scroll bars will be added.
 The image can be zoomed in and out with the [+] and [-] buttons at the bottom of the widget.
