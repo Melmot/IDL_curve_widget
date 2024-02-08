@@ -17,7 +17,7 @@ spline = draw_curve(img, /x, /y, /full)
 image - a byte-scaled 2-D array to be dsplayed in the widget.
 
 **Keywords:**
-/x or /y - use these keywords specify the primary axis for the spline. */x* is the default.
+/x or /y - use these keywords specify the primary axis for the spline. /x is the default.
 
             /full - set this keyword to continue the spline to the edges of the image.
 
